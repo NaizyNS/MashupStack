@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab 1</title>
+</head>
+<body>
+	<form>
+	  <label for="name">Name</label>
+	  <input type="text" name="name" placeholder="Enter your Name" maxlength="25" required><br><br>
+	  <label for="email">Email</label>
+	  <input type="email" name="email" value="test@gmail.com"  autofocus required><br><br>
+	  <label for="password">Password</label>
+	  <input type="password" name="password" minlength="6" required><br><br>
+	   <label>Category</label>
+	  <select required>
+	  	<option> Student</option>
+	  	<option>Employee</option>
+	  	<option selected>Freelancer</option>
+	  	
+
+	  </select><br><br>
+	  <label for="date">Event Date</label>
+	  <input type="date" name="date" required><br><br>
+	  <label for="tickets">Tickets</label>
+      <input type="radio" name="ticket" >1 Ticket
+      <input type="radio" name="ticket" checked >2 Ticket
+      <input type="radio" name="ticket" >3 Ticket<br><br>
+      <label>Online Payment</label>
+      <input type="checkbox" name="payment"><br><br>
+      <label>Notes</label>
+      <textarea name="notes" placeholder="enter your notes" cols="15" rows="5"></textarea><br><br>
+      <input type="submit">
+
+	</form>
+
+</body>
+</html>
